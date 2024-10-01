@@ -1,9 +1,14 @@
 import logo from './logo.svg';
 import './App.css';
+import React from 'react';
+import KycPage from './pages/KycPage';
+import SubscriptionPage from './pages/SubscriptionPage';
 
 function App() {
   return (
     <div className="App">
+      <KycPage />
+      <SubscriptionPage />
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
         <p>
